@@ -2,18 +2,6 @@
   #aperture .aperture--icon {
     padding-top: 10px;
   }
-  #areas .areas--title__img__group {
-    display: none;
-  }
-  #areas .areas--title__img__more {
-    display: none;
-  }
-  #areas .areas--title__img__read {
-    display: none;
-  }
-  #areas .areas--title__img__btn {
-    display: none;
-  }
   #mount .mount--group h1 {
     padding: 100px;
   }
@@ -26,15 +14,15 @@
   #footer .footer--all__icon {
     padding: 0 50px;
   }
-  #mount .mount--group h1{
+  #mount .mount--group h1 {
     padding: 0 200px;
     display: flex;
   }
-  #leafs .leafs--group h1{
+  #leafs .leafs--group h1 {
     display: flex;
     padding: 0 200px;
   }
-  #fall .fall--group h1{
+  #fall .fall--group h1 {
     display: flex;
 
   }
@@ -83,91 +71,174 @@
   #footer .footer--all__group h1 {
     padding: 20px 0;
   }
+  #footer .footer--title__lin {
+    margin: 40px 40px;
+  }
+  #footer .footer--title__lin2 {
+    margin: 40px 40px;
+  }
+  #tools .tools--group p {
+    width: 459px;
+  }
 }
 
 @media(max-width: 576px) {
-  .menu__btn{
+  .menu__btn {
     left: 93%;
   }
-  #aperture .aperture--group p{
+  #aperture .aperture--group p {
     width: 84%;
   }
-  .areas--img__image img{
+  #areas .areas--title__img__group {
+    top: 55%;
+  }
+  #areas .areas--title__img__group p {
+    width: 319px;
+  }
+  #areas .areas--title__img__group button {
+    width: 117px;
+    height: 37px;
+    font-size: 12px;
+  }
+  #areas .areas--title__img__more p {
+    width: 319px;
+  }
+  #areas .areas--title__img__more button {
+    width: 117px;
+    height: 37px;
+    font-size: 12px;
+  }
+  #areas .areas--title__img__more {
+    top: 52%;
+  }
+  #areas .areas--title__img__read p {
+    width: 80%;
+  }
+  #areas .areas--title__img__read button {
+    width: 117px;
+    height: 37px;
+    font-size: 12px;
+  }
+  #areas .areas--title__img__read {
+    top: 55%;
+  }
+  #areas .areas--title__img__btn p {
+    width: 80%;
+  }
+  #areas .areas--title__img__btn button {
+    width: 117px;
+    height: 37px;
+    font-size: 12px;
+  }
+  #areas .areas--title__img__btn {
+    top: 55%;
+  }
+  .areas--img__image img {
     width: 450px;
   }
-  #areas .areas--title__img__image img{
+  #areas .areas--title__img__image img {
     width: 450px;
   }
-  #footer .footer--title__group--input input{
-
-  }
-  #footer .footer--group{
+  #footer .footer--group {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
   }
-  #past .past--group{
+  #past .past--group {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  #need .need h1{
+  #need .need h1 {
     font-size: 30px;
   }
-  #footer .footer--title__group--input input{
+  #footer .footer--title__group--input input {
     width: 300px;
     height: 45px;
   }
-  #footer .footer--title__group--our{
+  #footer .footer--title__group--our {
     padding-left: 1px;
   }
-  #mount .mount--group h1{
+  #mount .mount--group h1 {
     padding: 0 200px;
   }
-  }
+}
 
 @media(max-width: 450px) {
-  #aperture .aperture--group h2{
+  #aperture .aperture--group{
+    padding-top: 380px;
+  }
+  #aperture .aperture--group h2 {
     font-size: 35px;
   }
-  #aperture .aperture--group p{
+  #aperture .aperture--group p {
     font-size: 12px;
     width: 90%;
   }
-  #areas .areas--h1{
+  #areas .areas--h1 {
     font-size: 30px;
   }
-  #areas .areas--p{
+  #areas .areas--p {
     font-size: 18px;
   }
-  .areas--img__image img{
+  .areas--img__image img {
     width: 380px;
   }
-  #areas .areas--title__img__image img{
+  #areas .areas--title__img__image img {
     width: 380px;
   }
-  #mount .mount--group h1{
+  #areas .areas--title__img__group {
+    top: 53%;
+  }
+  #areas .areas--title__img__group p {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  #areas .areas--title__img__more p {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  #areas .areas--title__img__more {
+    top: 50%;
+  }
+  #areas .areas--title__img__read p {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  #areas .areas--title__img__read {
+    top: 52%;
+  }
+  #areas .areas--title__img__btn p {
+    font-size: 12px;
+    padding: 10px 20px;
+
+
+  }
+  #areas .areas--title__img__btn {
+    top: 47%;
+  }
+  #mount .mount--group h1 {
     padding: 0 150px;
   }
-  #tools .tools--group p{
+  #tools .tools--group p {
     width: 90%;
     font-size: 12px;
   }
-  #leafs .leafs--group h1{
+  #leafs .leafs--group h1 {
     padding: 0 150px;
   }
-  #past .past h1{
+  #past .past h1 {
     font-size: 30px;
   }
-  #past .past p{
+  #past .past p {
     font-size: 20px;
   }
-  #need .need h1{
+  #need .need h1 {
     font-size: 20px;
     width: 80%;
   }
-  #need .need p{
+  #need .need p {
     font-size: 17px;
   }
   #need .need button {
@@ -175,14 +246,14 @@
     height: 35px;
     font-size: 12px;
   }
-  #footer .footer--group__two{
+  #footer .footer--group__two {
     padding: 20px 0;
   }
-  #footer .footer--group__two a{
+  #footer .footer--group__two a {
     padding: 5px 0;
     font-size: 10px;
   }
-  #footer .footer--group__three a{
+  #footer .footer--group__three a {
     padding: 5px 0;
     font-size: 10px;
   }
@@ -192,84 +263,222 @@
   #footer .footer--title__lin2 {
     margin: 10px 30px;
   }
-  #footer .footer--title__group--input input{
+  #footer .footer--title__group--input input {
     width: 250px;
     height: 40px;
   }
 
 
-  }
+}
 
 @media(max-width: 400px) {
-  .menu__btn{
+  .menu__btn {
     left: 90%;
   }
-  #aperture .aperture--icon__group{
+
+  #areas .areas--title__img__group h1{
+    font-size: 12px;
+  }
+  #areas .areas--title__img__group p {
+    font-size: 8px;
+    padding: 5px 20px;
+  }
+  #areas .areas--title__img__group button{
+    width: 107px;
+    height: 33px;
+    font-size: 10px;
+  }
+  #areas .areas--title__img__group--btn img{
+    width: 20px;
+    height: 20px;
+  }
+  #areas .areas--title__img__more h1{
+    font-size: 12px;
+  }
+  #areas .areas--title__img__more p {
+    font-size: 8px;
+    padding: 5px 20px;
+  }
+  #areas .areas--title__img__more button{
+    width: 107px;
+    height: 33px;
+    font-size: 10px;
+  }
+  #areas .areas--title__img__more--btn img{
+    width: 20px;
+    height: 20px;
+  }
+  #areas .areas--title__img__read p {
+    font-size: 8px;
+    padding: 5px 20px;
+  }
+  #areas .areas--title__img__read button{
+    width: 107px;
+    height: 33px;
+    font-size: 10px;
+  }
+  #areas .areas--title__img__read {
+    top: 49%;
+  }
+  #areas .areas--title__img__read h1{
+    font-size: 12px;
+  }
+  #areas .areas--title__img__btn h1{
+    font-size: 12px
+  }
+  #areas .areas--title__img__btn p {
+    font-size: 8px;
+    padding: 5px 20px;
+
+
+  }
+  #areas .areas--title__img__btn button{
+    width: 107px;
+    height: 33px;
+    font-size: 10px;
+  }
+  #areas .areas--title__img__read--btn img{
+    width: 20px;
+    height: 20px;
+  }
+  #areas .areas--title__img__btn--nav img{
+    width: 20px;
+    height: 20px;
+  }
+  #mount .mount--group{
+    padding-top: 200px;
+  }
+  #aperture .aperture--icon__group {
     padding: 0 15px;
   }
-  #areas .areas--h1{
+  #areas .areas--h1 {
     font-size: 25px;
   }
-  .areas--img__image img{
+  .areas--img__image img {
     width: 330px;
     height: 300px;
   }
-  #areas .areas--title__img__image img{
+  #areas .areas--title__img__image img {
     width: 330px;
     height: 300px;
   }
-  #mount .mount--group h1{
+  #mount .mount--group h1 {
     padding: 0 123px;
   }
-  #tools .tools--group button{
+  #tools .tools--group button {
     width: 130px;
     height: 37px;
     font-size: 12px;
   }
-  #leafs .leafs--group h1{
+  #leafs .leafs--group h1 {
     padding: 0 127px;
   }
-  #footer .footer--title__group--input input{
+  #footer .footer--title__group--input input {
     width: 220px;
     height: 38px;
-    &::placeholder{
+
+    &::placeholder {
       font-size: 14px;
     }
   }
-  #footer .footer--all__group h1{
+  #footer .footer--all__group h1 {
     font-size: 12px;
+  }
+  #aperture .aperture--group {
+    padding-top: 350px;
   }
 }
 
 @media(max-width: 380px) {
-  #mount .mount--group h1{
+  #areas .areas--title__img__group{
+    top: 48%;
+  }
+  #areas .areas--title__img__group p{
+    width: 219px;
+  }
+  #areas .areas--title__img__more {
+    top: 38%;
+  }
+  #areas .areas--title__img__more p{
+    width: 219px;
+  }
+  #areas .areas--title__img__read{
+    top: 30%;
+
+  }
+  #areas .areas--title__img__btn{
+    top: 30%;
+  }
+  #mount .mount--group h1 {
     padding: 0 111px;
   }
-  #mount .mount--icon__title{
+  #mount .mount--icon__title {
     padding: 0 20px;
   }
-  #tools .tools--img__image img{
+  #tools .tools--img__image img {
     width: 379px;
   }
-  #leafs .leafs--icon__title{
+  #leafs .leafs--icon__title {
     padding: 15px 15px;
   }
-  #past .past h1{
+  #past .past h1 {
     font-size: 25px;
   }
-  #past .past p{
+  #past .past p {
     font-size: 14px;
   }
-  #fall .fall--group h1{
+  #fall .fall--group h1 {
     padding: 0 90px;
   }
-  #fall .fall--group p{
+  #fall .fall--group p {
     padding: 0 40px;
   }
-  #fall .fall--group{
+  #fall .fall--group {
     padding-top: 100px;
   }
-  #fall .fall--icon{
+  #fall .fall--icon {
     padding-top: 100px;
   }
+}
+
+@media(max-width: 320px) {
+  #aperture .aperture--group {
+    padding-top: 250px;
+  }
+  .areas--img__image img {
+    width: 270px;
+    height: 250px;
+  }
+  #areas .areas--title__img__image img {
+    width: 270px;
+    height: 250px;
+  }
+  #mount .mount--group h1 {
+    padding: 0 90px;
+  }
+  #mount .mount--group p {
+    padding: 0 8px;
+  }
+  #tools .tools--img__image img {
+    width: 319px;
+  }
+  #leafs .leafs--group h1 {
+    padding: 0 106px;
+  }
+  #need .need h1 {
+    width: 92%;
+  }
+  #leafs .leafs--group {
+    padding-top: 150px;
+  }
+  #fall .fall--group h1 {
+    padding: 0 63px;
+  }
+  #fall .fall--group p {
+    padding: 0 14px;
+  }
+  #footer .footer--all__group h1 {
+    padding: 20px 20px;
+  }
+
 }
